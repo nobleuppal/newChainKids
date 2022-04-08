@@ -1,0 +1,15 @@
+:root {
+    --background: #0c1910;
+    --text: #1bec61;
+}
+@font-face {
+    font-family: chicago;
+    src: url('./assets/ChicagoFLF.ttf');
+}
+* {
+    max-width: 1440px;
+    padding: 0rem;
+    margin: auto;
+    color: var(--text);
+    font-family: chicago;
+}
