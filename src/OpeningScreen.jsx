@@ -1,7 +1,11 @@
 import React from "react";
-import OpeningText from "./OpeningText";
-import './Default.css';
+import './Screen.css';
 import TypewriterComponent from "typewriter-effect";
+import { unmountComponentAtNode } from "react-dom";
+import { BrowserRouter as Router, Switch, Route, Link, useNavigate } from 'react-router-dom';
+import HomePage from "./HomePage";
+import GoHome from "./GoHome";
+
 
 class OpeningScreen extends React.Component {
     constructor() {
@@ -9,44 +13,40 @@ class OpeningScreen extends React.Component {
         this.state = {
             lineOne : 'Wake up ChainKid...',
             lineTwo : 'Web3 has you...',
-            lineThree : 'Are you awake?',
-            lineFour : 'Would you like to connect your wallet?'
+            lineThree : 'Would you like to connect your wallet?',
+            page: 0
         }
-
      
+
 
     }
 
-    
+  
 
     render() {
+
         return(
-            <div>
-                <div>
+                <div className="opening-screen" id="typewriter-text">
                     <TypewriterComponent 
                         onInit={(sentence) => {
-                            sentence.typeString(this.state.lineOne).changeDelay(100).start();                                    
-                        }}
-                    /> 
-                    <TypewriterComponent
-                        onInit={(sentence) => {
-                            sentence.pauseFor(2500).typeString(this.state.lineTwo).changeDelay(100).start();
-                        }}
-                    />
-                     <TypewriterComponent
-                        onInit={(sentence) => {                        
-                            sentence.pauseFor(5000).typeString(this.state.lineThree).changeDelay(100).start();
+                            sentence
+                            .typeString(this.state.lineOne)
+                            .changeDelay(100)
+                            .typeString('<br>')
+                            .pauseFor(500)
+                            .typeString(this.state.lineTwo)
+                            .changeDelay(100)
+                            .typeString('<br>')
+                            .pauseFor(100)
+                            .typeString(this.state.lineThree)                                                            
+                            .start() 
+
                             
                         }}
-                    />
-                     <TypewriterComponent
-                        onInit={(sentence) => {                  
-                            sentence.pauseFor(7500).typeString(this.state.lineFour).changeDelay(100).start(); 
-                        }}
-                    />
+                    />  
+                    <GoHome/>
                     
-                </div>           
-            </div>
+                </div>
         );
     }
 }

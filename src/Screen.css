@@ -1,0 +1,67 @@
+.App-header {
+    background-color: var(--background);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.yes-no {
+    visibility: visible;
+    animation-name: reveal;
+    animation-duration: 11s;
+}
+@keyframes reveal {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+.yes {
+    color: var(--background);
+    background-color: var(--text);
+    border: transparent;
+  
+    animation-name: reverse-inverter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    cursor: pointer;
+}
+.no {
+    border: transparent;
+
+    animation-name: inverter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    cursor: pointer;
+
+}
+@keyframes inverter {
+    from {
+        color: inherit;
+        background-color: inherit;
+    }
+    to {
+        color: var(--background);
+        background-color: var(--text);
+    }
+}
+@keyframes reverse-inverter {
+    from {
+        color: inherit;
+        background-color: inherit;
+    }
+    to {
+        color: none;
+        background-color: none;
+    }
+}
+#typewriter-text {
+    margin: 0rem;
+    text-align: justify;
+}
+
