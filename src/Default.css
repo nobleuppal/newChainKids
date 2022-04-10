@@ -13,6 +13,7 @@
     font-family: chicago;
     color: var(--text);
     background-color: var(--background);
+    box-sizing: border-box;
 }
 ul {
     list-style: none;
