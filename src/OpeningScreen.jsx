@@ -21,8 +21,6 @@ class OpeningScreen extends React.Component {
 
     }
 
-  
-
     render() {
 
         return(
@@ -37,11 +35,9 @@ class OpeningScreen extends React.Component {
                             .typeString(this.state.lineTwo)
                             .changeDelay(100)
                             .typeString('<br>')
-                            .pauseFor(100)
+                            .pauseFor(500)
                             .typeString(this.state.lineThree)                                                            
-                            .start() 
-
-                            
+                            .start()     
                         }}
                     />  
                     <GoHome/>

@@ -1,0 +1,17 @@
+.home-page {
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6.6rem;
+    align-self: center;
+    padding-top: 2rem;
+}
+.home-page img {
+    width: 8rem;
+    height: 8rem;
+}
+.full-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+}

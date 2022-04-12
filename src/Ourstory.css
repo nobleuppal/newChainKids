@@ -1,0 +1,66 @@
+.story {
+    margin: 0rem;
+    /*background-image: url('./assets/ourstorybg.jpg');
+    background-size: cover;
+   */ 
+   display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
+   padding: 2rem;
+   
+}
+.section-one {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    text-align: justify;
+    row-gap: 2rem;
+    font-size: 1rem;
+    margin: 0rem;
+}
+.section-one h3, .section-one div {
+    color: var(--alt-text);
+}
+.section-one h3 {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.section-one div {
+    align-self: flex-end;
+    margin: 0rem;
+}
+.main-nav {
+    text-align: left;
+    margin: 0rem;
+    
+}
+.connect {
+    width: fit-content;
+    margin-right: 0rem;
+    margin-left: auto;
+}
+.story-container {
+    display: flex;
+    align-items: flex-start;
+}
+.nav-links {
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25rem;
+    flex: 1;
+}
+.nav-links a {
+    margin: 0rem;
+    align-self: flex-start;
+}
+.nav-links img {
+    width: 8rem;
+    height: 8rem;
+}
+.wallet-body {
+    margin: 0rem;
+    flex: 2;
+}
+
+

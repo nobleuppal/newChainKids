@@ -1,6 +1,7 @@
 :root {
     --background: #0c1910;
     --text: #1bec61;
+    --alt-text: white;
 }
 @font-face {
     font-family: chicago;

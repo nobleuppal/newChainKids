@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 0rem;
 }
 .yes-no {
     visibility: visible;
@@ -63,5 +63,7 @@
 #typewriter-text {
     margin: 0rem;
     text-align: justify;
+    font-size: 1.5rem;
+    padding: 2rem;
 }
 
