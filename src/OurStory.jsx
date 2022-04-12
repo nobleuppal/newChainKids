@@ -1,10 +1,8 @@
-import { getDefaultNormalizer } from "@testing-library/react";
 import React from "react";
-import Navbar from "./Navbar";
 import StoryBody from "./StoryBody";
 import './Default.css';
 import './Ourstory.css';
-import { Route, Link, Routes, Router, NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import Wallet from "./Wallet";
 import MainNav from "./MainNav";
 

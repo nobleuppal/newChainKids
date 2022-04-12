@@ -1,6 +1,6 @@
 import React from "react";
 import './Default.css';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class MainNav extends React.Component {
     render() {

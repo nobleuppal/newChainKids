@@ -1,9 +1,6 @@
 import React from "react";
 import './Screen.css';
 import TypewriterComponent from "typewriter-effect";
-import { unmountComponentAtNode } from "react-dom";
-import { BrowserRouter as Router, Switch, Route, Link, useNavigate } from 'react-router-dom';
-import HomePage from "./HomePage";
 import GoHome from "./GoHome";
 
 

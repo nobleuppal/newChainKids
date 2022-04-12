@@ -35,9 +35,16 @@
     
 }
 .connect {
+    margin: 0rem 0rem 0rem auto;
+    height: fit-content;
     width: fit-content;
-    margin-right: 0rem;
-    margin-left: auto;
+}
+.connect button {
+    color: var(--text);
+    background-color: var(--background);
+    border: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 .story-container {
     display: flex;

@@ -1,8 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
 import './Default.css';
 import './HomePage.css';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import MainNav from "./MainNav";
 import Wallet from "./Wallet";
 

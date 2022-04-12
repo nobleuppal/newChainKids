@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import OpeningScreen from './OpeningScreen';
 import OurStory from './OurStory';
 import './Default.css';
 import HomePage from "./HomePage";
-import { Route, Link, Routes, Router,} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom';
 
 function App() {

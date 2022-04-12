@@ -1,7 +1,6 @@
 import React from "react";
 import './Default.css';
 import './Ourstory.css';
-import Wallet from "./Wallet";
 
 class StoryBody extends React.Component {
 
