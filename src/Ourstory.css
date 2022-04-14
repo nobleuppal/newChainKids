@@ -14,9 +14,8 @@
     flex: 3;
     flex-direction: column;
     text-align: justify;
-    row-gap: 2rem;
-    font-size: 1rem;
-    margin: 0rem;
+    row-gap: 1rem;
+    margin: 0rem 5rem 0rem 0rem;
 }
 .section-one h3, .section-one div {
     color: var(--alt-text);
@@ -24,10 +23,14 @@
 .section-one h3 {
     text-decoration: underline;
     font-weight: 500;
+    font-size: 2rem;
 }
 .section-one div {
     align-self: flex-end;
     margin: 0rem;
+}
+.section-one p {
+    font-size: 0.9rem;
 }
 .main-nav {
     text-align: left;
@@ -54,8 +57,8 @@
     margin: 0rem;
     display: flex;
     flex-direction: column;
-    row-gap: 25rem;
-    flex: 1;
+    row-gap: 20rem;
+    flex: 2;
 }
 .nav-links a {
     margin: 0rem;
@@ -64,10 +67,12 @@
 .nav-links img {
     width: 8rem;
     height: 8rem;
+    margin-left: 2rem;
 }
 .wallet-body {
     margin: 0rem;
-    flex: 2;
+    flex: 4;
 }
+
 
 

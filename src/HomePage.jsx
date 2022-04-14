@@ -4,15 +4,16 @@ import './HomePage.css';
 import { NavLink } from 'react-router-dom';
 import MainNav from "./MainNav";
 import Wallet from "./Wallet";
+import { toHaveFocus } from "@testing-library/jest-dom/dist/matchers";
 
 
 class HomePage extends React.Component {
- 
+
 
     render() {
         return(
             <div class="home-page">
-                <div class="full-nav">
+                <div class="full-nav"> 
                     <MainNav/>
                     <Wallet/>
                 </div>
@@ -20,8 +21,6 @@ class HomePage extends React.Component {
             </div>
         );
     }
-
-
 }
 
 export default HomePage;

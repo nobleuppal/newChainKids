@@ -9,6 +9,10 @@ import MainNav from "./MainNav";
 
 
 class OurStory extends React.Component {
+    constructor() {
+        super();
+    }
+    
 
     render() {
         return(
