@@ -9,6 +9,8 @@ import HamburgerNav from "./HamburgerNav";
 
 
 
+
+
 class OurStory extends React.Component {
     constructor() {
         super();
@@ -28,21 +30,21 @@ class OurStory extends React.Component {
 
     render() {
         return(
-            <div className="story">     
-                <div className="story-container">
-                    <div className="nav-links">
-                        {this.changeNav()}
-                        <NavLink to="/home"><img src={require('./assets/ck-logo.png')} alt="ck-logo"/></NavLink>
-                    </div>
+                <div className="story">     
+                    <div className="story-container">
+                        <div className="nav-links">
+                            {this.changeNav()}
+                            <NavLink to="/home"><img src={require('./assets/ck-logo.png')} alt="ck-logo"/></NavLink>
+                        </div>
 
-                    <div className="wallet-body">
-                        <Wallet/>
-                        <StoryBody 
-                        className="story-body"
-                        />
+                        <div className="wallet-body">
+                            <Wallet/>
+                            <StoryBody 
+                            className="story-body"
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }

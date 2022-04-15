@@ -1,8 +1,5 @@
 .story {
-    margin: 0rem;
-    /*background-image: url('./assets/ourstorybg.jpg');
-    background-size: cover;
-   */ 
+   margin: 0rem;
    display: flex;
    flex-direction: column;
    row-gap: 2rem;

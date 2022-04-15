@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import './Screen.css';
+import React from "react";
 
 
  const GoHome = () =>  {

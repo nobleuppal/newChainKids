@@ -4,6 +4,7 @@ import TypewriterComponent from "typewriter-effect";
 import GoHome from "./GoHome";
 
 
+
 class OpeningScreen extends React.Component {
     constructor() {
         super();
