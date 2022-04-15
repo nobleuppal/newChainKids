@@ -65,13 +65,53 @@
     align-self: flex-start;
 }
 .nav-links img {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 6rem;
     margin-left: 2rem;
 }
 .wallet-body {
     margin: 0rem;
     flex: 4;
+}
+@media all and (max-width: 1024px) {
+    .story-container {
+        display: grid;
+    }
+    .nav-links {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .nav-links img {
+        margin-left: 0rem;
+    }
+    .section-one {
+        margin: 0rem;
+    }
+}
+@media all and (max-width: 768px) {
+    .pop-up {
+        border: transparent;
+        font-size: 2rem;
+        margin: 0rem;
+    }
+    .nav-container {
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-nav {
+        visibility: hidden;
+    }
+    .main-nav.is-visible {
+        visibility: visible;
+    }
+}
+@media all and (max-width: 375px) {
+    .section-one h3 {
+        font-size: 1rem;
+    }
 }
 
 

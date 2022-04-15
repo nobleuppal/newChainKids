@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 class MainNav extends React.Component {
     render() {
         return(
-            <div class="main-nav">
-                <div class="press">
+            <div className="main-nav">
+                <div className="press">
                     Press
                 </div>
-                <ul class="options">
+                <ul className="options">
                     <li><Link to="/story">A... our story</Link></li>
                     <li>B... mystery box</li>
                     <li>C... ens setup</li>

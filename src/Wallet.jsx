@@ -5,7 +5,7 @@ class Wallet extends React.Component {
 
     render() {
         return(
-            <div class="connect">
+            <div className="connect">
                 <button>Wallet Connect</button>
             </div>
         );

@@ -10,7 +10,7 @@ import './Screen.css';
    
 
     return(
-        <div class="yes-no">
+        <div className="yes-no">
             <span class="yes">Y</span>  
             <span class="or">/</span>  
             <span class="no" onClick={() => navigate('/home')}>N</span>  

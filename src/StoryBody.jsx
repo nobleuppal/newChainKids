@@ -6,7 +6,7 @@ class StoryBody extends React.Component {
 
     render() {
         return(
-            <div class="section-one">
+            <div className="section-one">
                     <h3>our story</h3>
                     <p>
                         The year is 2022 and Artificial Intelligence is taking over the planet! The computational nature of A.I has built 

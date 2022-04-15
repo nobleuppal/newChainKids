@@ -37,8 +37,7 @@ class OpeningScreen extends React.Component {
                             .start()     
                         }}
                     />  
-                    <GoHome/>
-                    
+                    <GoHome/>  
                 </div>
         );
     }
