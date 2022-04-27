@@ -1,8 +1,9 @@
 import './App.css';
-import OpeningScreen from './OpeningScreen';
-import OurStory from './OurStory';
+import OpeningScreen from './OpeningScreen/OpeningScreen';
+import OurStory from './OurStory/OurStory';
+import ChainGame from './ChainGame/ChainGame';
 import './Default.css';
-import HomePage from "./HomePage";
+import HomePage from './Homepage/HomePage';
 import { Route, Routes} from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom';
 import React from 'react';
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<OpeningScreen/>}/>
             <Route path="/home" element={<HomePage/>}/>
             <Route path="/story" element={<OurStory/>}/>
+            <Route path="/game" element={<ChainGame/>}/>
           </Routes>
         </BrowserRouter>
       </header>

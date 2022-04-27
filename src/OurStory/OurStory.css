@@ -1,10 +1,14 @@
+* {
+    background-color: transparent;
+}
 .story {
    margin: 0rem;
    display: flex;
    flex-direction: column;
    row-gap: 2rem;
    padding: 2rem;
-   
+   background-image: url('../assets/ourstorybg.jpg');
+   background-size: contain;
 }
 .section-one {
     display: flex;
@@ -32,7 +36,6 @@
 .main-nav {
     text-align: left;
     margin: 0rem;
-    
 }
 .connect {
     margin: 0rem 0rem 0rem auto;
@@ -41,7 +44,7 @@
 }
 .connect button {
     color: var(--text);
-    background-color: var(--background);
+    background-color: transparent;
     border: transparent;
     font-size: 1.5rem;
     cursor: pointer;

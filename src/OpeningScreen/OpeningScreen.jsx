@@ -14,9 +14,6 @@ class OpeningScreen extends React.Component {
             lineThree : 'Would you like to connect your wallet?',
             page: 0
         }
-     
-
-
     }
 
     render() {

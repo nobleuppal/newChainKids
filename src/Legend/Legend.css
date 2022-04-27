@@ -1,0 +1,25 @@
+.legend {
+    border: 0.1rem solid var(--text);
+    padding: 0.5rem 1rem;
+}
+.ascii {
+    display: flex;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+.ascii span {
+    margin: 0rem;
+}
+.ascii span:first-child {
+    width: 1rem;
+}
+.codes {
+    display: grid;
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+#word {
+    grid-column: 1/3;
+}
+

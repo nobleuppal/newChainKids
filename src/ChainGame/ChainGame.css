@@ -1,0 +1,67 @@
+.chain-game {
+    margin: 0rem;
+    width: 100vw;
+    padding: 2rem;
+    background-image: url('../assets/ourstorybg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.chain-game img:last-child {
+    width: 8rem;
+    height: 7rem;
+}
+.home-btn {
+   align-self: flex-start;
+   margin: 0rem;
+}
+.game-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 5rem;
+    height: 30rem;
+}
+.legend {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.sum {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 2rem;
+}
+.carousel {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 0rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem;
+}
+@media all and (max-width: 768px) {
+    .game-body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 5rem;
+        height: fit-content;
+    }
+    .legend {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .sum {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: auto;
+    }
+    .carousel {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-top: 0rem;
+    }
+}
+

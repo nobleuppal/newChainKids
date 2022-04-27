@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "George",
+        "Number": 1012,
+        "Picture": "./NFTs/NFT-one.jpg"
+    },
+    {
+        "Name": "Billy",
+        "Number": 1013,
+        "Picture": "./NFTs/NFT-two.jpg"
+    },
+    {
+        "Name": "Richard",
+        "Number": 1014,
+        "Picture": "./NFTs/NFT-three.jpg"
+    }
+]

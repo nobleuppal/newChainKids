@@ -1,6 +1,6 @@
 import React from "react";
-import './Default.css';
-import './Ourstory.css';
+import '../Default.css';
+import './OurStory.css';
 
 class StoryBody extends React.Component {
 

@@ -1,10 +1,10 @@
 import React from "react";
-import './Default.css';
+import '../Default.css';
 import './HomePage.css';
 import { NavLink } from 'react-router-dom';
-import MainNav from "./MainNav";
-import Wallet from "./Wallet";
-import HamburgerNav from "./HamburgerNav";
+import MainNav from "../MainNav";
+import Wallet from "../Wallet";
+import HamburgerNav from "../HamburgerNav";
 import Protect from 'react-app-protect';
 
 
@@ -35,7 +35,7 @@ class HomePage extends React.Component {
                         {this.changeNav()}
                         <Wallet/>
                     </div>
-                    <NavLink to="/home"><img src={require('./assets/ck-logo.png')} alt="ck-logo"/></NavLink>
+                    <NavLink to="/home"><img src={require('../assets/ck-logo.png')} alt="ck-logo"/></NavLink>
                 </div>
             </Protect>
         );

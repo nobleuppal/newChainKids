@@ -1,0 +1,14 @@
+.slider-container img {
+    width: 25vw;
+    height: 25vw;
+}
+.slider-container svg {
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+}
+.slider-container {
+    display: flex;
+    column-gap: 4vw;
+    margin-top: 1rem;
+}

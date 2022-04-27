@@ -13,7 +13,7 @@ class MainNav extends React.Component {
                     <li><Link to="/story">A... our story</Link></li>
                     <li>B... mystery box</li>
                     <li>C... ens setup</li>
-                    <li>D... the chain game</li>
+                    <li><Link to="/game">D... the chain game</Link></li>
                     <li>E... the void</li>
                     <li>F... whitepaper</li>
                     <li>G... faq</li>
