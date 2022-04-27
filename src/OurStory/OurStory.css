@@ -57,7 +57,7 @@
     margin: 0rem;
     display: flex;
     flex-direction: column;
-    row-gap: 20rem;
+    row-gap: 28rem;
     flex: 2;
 }
 .nav-links a {

@@ -40,6 +40,9 @@
     cursor: pointer;
 
 }
+.opening-screen {
+    align-self: flex-start;
+}
 @keyframes inverter {
     from {
         color: inherit;
