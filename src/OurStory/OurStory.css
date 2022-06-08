@@ -1,13 +1,9 @@
-* {
-    background-color: transparent;
-}
 .story {
    margin: 0rem;
    display: flex;
    flex-direction: column;
    row-gap: 2rem;
    padding: 2rem;
-   background-image: url('../assets/ourstorybg.jpg');
    background-size: contain;
 }
 .section-one {

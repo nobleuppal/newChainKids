@@ -20,6 +20,7 @@ class HamburgerNav extends React.Component {
             this.removeMenu();
         }
     }
+
     addMenu = () => {
         const main = document.querySelectorAll('.main-nav');
     
@@ -46,7 +47,7 @@ class HamburgerNav extends React.Component {
                     <FontAwesomeIcon icon={this.state.symbol}/>
                 </button>  
                 <div>
-                    <MainNav/>
+                    <MainNav/> 
                 </div> 
             </div>
         );

@@ -1,0 +1,19 @@
+.claimed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+    border: 0.5rem solid var(--text);
+    padding: 0.5rem;
+    width: 25vw;
+}
+.add-details {
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--text);
+    color: var(--background);
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin: 0rem;
+}

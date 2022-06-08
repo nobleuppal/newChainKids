@@ -1,0 +1,42 @@
+.faq-comp {
+    padding: 2rem;
+}
+ul {
+    text-align: left;
+}
+.faq-body li {
+    list-style: inside;
+}
+.nav-links-faq {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links-faq img {
+    width: 8rem;
+    height: 7rem;
+    margin: 0rem;
+}
+.nav-links-faq a {
+    margin: 0rem;
+}
+.faq-body {
+    overflow-y: scroll;
+    height: 25rem;
+    margin-left: 25rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border: 0.10rem solid var(--text);
+    padding: 0.25rem;
+}
+.faq-body p {
+    text-align: justify;
+}
+::-webkit-scrollbar {
+    background-color: var(--background);
+    border: 0.10rem solid var(--text);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--text);
+}

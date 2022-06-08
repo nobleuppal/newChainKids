@@ -1,0 +1,58 @@
+.user-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+    border: 0.5rem solid var(--text);
+    padding: 0.5rem;
+    width: 25vw;
+}
+.name-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 14rem;
+    text-align: left;
+}.name-info h4 {
+    margin: 0rem;
+}
+.user-name div {
+    margin: 0rem;
+}
+.user-name button {
+    width: 10rem;
+    height: 2rem;
+    background-color: var(--text);
+    color: var(--background);
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin: 0rem;
+}
+.user-name p {
+    font-size: 0.75rem;
+}
+.identity-container {
+    border: 0.10rem solid var(--text);
+}
+.identity-container input {
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+    text-align: right;
+}
+.identity-container label {
+    font-size: 1rem;
+    background-color: var(--text);
+    color: var(--background);
+    padding: 0.5rem 0.55rem 0.5rem 0rem;
+}
+.allow-container {
+    font-size: 0.75rem;
+    display: flex;
+    align-content: flex-start;
+}
+.allow-container input {
+    margin-right: 0.50rem;
+}
