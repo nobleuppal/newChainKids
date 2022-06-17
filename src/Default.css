@@ -1,6 +1,7 @@
 :root {
     --background: white;
     --text: black;
+    --logo: './assets/Chainkeylogo1.png';
 }
 @font-face {
     font-family: chicago;

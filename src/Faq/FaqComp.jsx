@@ -27,7 +27,7 @@ class FaqComp extends React.Component {
             <div className="faq-comp">
                 <div className="nav-links-faq">
                     {this.changeNav()}
-                    <NavLink to="/home"><img src={require('../assets/ck-logo.png')} alt="ck-logo"/></NavLink>
+                    <NavLink to="/home"><img src={require('../assets/Chainkeylogo1.png')} alt="ck-logo"/></NavLink>
                 </div>
                 <div className="faq-body">
                     <h2>FAQ</h2>

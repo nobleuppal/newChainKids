@@ -8,7 +8,7 @@
 }
 .home-page img {
     width: 8rem;
-    height: 7rem;
+    height: 8rem;
 }
 .full-nav {
     display: flex;
@@ -30,7 +30,12 @@
     margin: 0rem;
     cursor: pointer;
 }
-
+.partnerships {
+    position: relative;
+    bottom: 30rem;
+    left: 20rem;
+    cursor: pointer;
+}
 @media all and (max-width: 768px) {
     .main-nav, .connect button {
         font-size: 1rem;

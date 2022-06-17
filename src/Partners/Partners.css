@@ -1,0 +1,16 @@
+.partners {
+    border: 0.25rem solid var(--text);
+    position: relative;
+    bottom: 30rem;
+    right: 30rem;
+    padding: 1rem;
+}
+.partners img {
+    width: 20rem;
+}
+.partners svg {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+

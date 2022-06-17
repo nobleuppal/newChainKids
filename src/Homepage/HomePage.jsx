@@ -6,6 +6,7 @@ import MainNav from "../MainNav";
 import Wallet from "../Wallet";
 import HamburgerNav from "../HamburgerNav";
 import Protect from 'react-app-protect';
+import Partners from "../Partners/Partners";
 
 
 
@@ -14,6 +15,9 @@ class HomePage extends React.Component {
     constructor() {
         super();
         this.navType = '';
+        this.state = {
+            sponsors: null,
+        }
     }
 
     changeNav = () => {
@@ -25,6 +29,16 @@ class HomePage extends React.Component {
         }
     }
 
+  
+    openSponsors = () => {
+        this.setState({sponsors: <Partners closeSponsors={this.closeSponsors}/>});
+    }
+
+    closeSponsors = () => {
+        this.setState({sponsors: null});
+    }
+
+
     render() {
         return(
             <Protect 
@@ -35,7 +49,12 @@ class HomePage extends React.Component {
                         {this.changeNav()}
                         <Wallet/>
                     </div>
-                    <NavLink to="/home"><img src={require('../assets/ck-logo.png')} alt="ck-logo"/></NavLink>
+                    <NavLink to="/home"><img src={require('../assets/Chainkeylogo1.png')} alt="ck-logo"/></NavLink>
+                    <div onClick={() => this.openSponsors()} className="partnerships">
+                        <img src={require('../assets/8bitfolder-Icon.png')} alt="folder"/>
+                        <div>Partnerships</div>
+                    </div>
+                    {this.state.sponsors}
                 </div>
             </Protect>
         );

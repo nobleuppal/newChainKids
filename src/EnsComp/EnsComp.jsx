@@ -35,7 +35,7 @@ class EnsComp extends React.Component {
             <div className="ens-comp">
                 <div className="nav-links-ens">
                     {this.changeNav()}
-                    <NavLink to="/home"><img src={require('../assets/ck-logo.png')} alt="ck-logo"/></NavLink>
+                    <NavLink to="/home"><img src={require('../assets/Chainkeylogo1.png')} alt="ck-logo"/></NavLink>
                 </div>
                 {this.state.ensClaim}
             </div>
